@@ -11,9 +11,9 @@ function generaPasswordCasuale() {
     }
     return randomPassword;
 }
-randomPassword = generaPasswordCasuale();
+let passwordGenerata = generaPasswordCasuale();
 
-let infoUser = `${nameUser} ${lastnameUser} ${favColorUser} 21
-Password consigliata: ${randomPassword}`;
+let infoUser = `Info utente: ${nameUser} ${lastnameUser} ${favColorUser} 21\n
+Password consigliata: ${passwordGenerata}`;
 document.write(infoUser);
 console.log(infoUser);
